@@ -44,7 +44,7 @@ const Contact = () => {
         Get in Touch!
       </motion.h1>
       <motion.p variants={fadeIn('', '', 0.15, 1)} className={style.subtitle}>
-        I&apos;m always excited to hear about new opportunities and collaborations. Don&apos;t hesitate to reach out and let&apos;s make something great.
+        What really gets me going is good food, but you aren&apos;t here for a dinner party. I do love a good chat though, so feel free to reach out to me for any queries or just to say hi!
       </motion.p>
       <div className={style.container}>
         <motion.form
