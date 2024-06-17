@@ -195,20 +195,20 @@ const services = [
   {
     id: 1,
     icon: responsive,
-    title: 'Responsive Design',
-    text: 'I specialize in creating websites that are not just visually stunning but also highly adaptable. My responsive designs ensure that your site looks and works perfectly on any device, providing an exceptional user experience regardless of screen size.',
+    title: 'Responsive',
+    text: 'bleh responsive',
   },
   {
     id: 2,
     icon: react,
-    title: 'Front-end Development',
-    text: 'I breathe life into your creative ideas by translating them into captivating web interfaces. Using the latest frontend technologies and best practices, I build engaging, user-friendly websites that leave a lasting impression.',
+    title: 'Front-end ',
+    text: 'bleh Front-end ',
   },
   {
     id: 3,
     icon: LookingGif,
-    title: 'Back-end Development',
-    text: 'My backend development expertise forms the backbone of your web application. I design and build robust, efficient, and secure server-side solutions that handle data management and business logic seamlessly, ensuring your website functions flawlessly.',
+    title: 'Back-end ',
+    text: 'just bleh',
   },
 ];
 
