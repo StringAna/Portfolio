@@ -45,6 +45,11 @@ const Navbar = () => {
           whileHover={{ scale: 1.12, backgroundColor: 'var(--dark-blue)', transition: { type: 'spring', damping: 20, stiffness: 300 } }}
           className={style.logo_btn}
         >
+          {
+            /*
+            Remove the theme button. Make it by default dark theme.
+             */
+          }
           {theme === 'dark' ? (<img src={homeIconDark} alt="Home Icon Dark" className={style.homeIconDark} loading="lazy" />) : (<img src={homeIconLight} alt="Home Icon Light" className={style.homeIconLight} loading="lazy" />)}
           {/* <img src={logo} alt="My logo" className={style.logo} loading="lazy" /> */}
         </motion.button>
