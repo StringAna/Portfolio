@@ -22,13 +22,13 @@ const About = () => (
           Antara Tewary
         </a>
         {' '}
-        and I am just here. Trying.
+        and I am just here.
       </motion.p>
       <motion.p variants={fadeIn('', '', 0.75, 1)} className={style.text}>
-        I have been trying. Failing. Trying. Getting back up again, down again.
+        I have been trying to learn about new technologies.
       </motion.p>
       <motion.p variants={fadeIn('', '', 1, 1)} className={style.text}>
-        my whatever it is that I am doing. My attempts are listed as weird
+        my whatever it is that I am doing. My attempts are listed as
         {' '}
         <a
           href="https://github.com/StringAna"
@@ -40,7 +40,7 @@ const About = () => (
           generic contributions on GitHub
         </a>
         {' '}
-        Hoping that there&apos;s light at thte end of the tunnel
+        Hoping that there&apos;s light at the end of the tunnel
       </motion.p>
       <motion.p variants={fadeIn('', '', 1.25, 1)} className={style.text}>
         Reach out for rant, for really good food, and a lot of wisdom.
@@ -54,7 +54,7 @@ const About = () => (
           Access my resume
         </a>
         {' '}
-        to know only about my profesh life. I am a lot more boring, but with a lot of gravity. No one gives a crap though.
+        to know more about how I can bring value to you.
       </motion.p>
     </div>
   </>

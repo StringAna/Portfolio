@@ -50,7 +50,8 @@ const Navbar = () => {
             Remove the theme button. Make it by default dark theme.
              */
           }
-          {theme === 'dark' ? (<img src={homeIconDark} alt="Home Icon Dark" className={style.homeIconDark} loading="lazy" />) : (<img src={homeIconLight} alt="Home Icon Light" className={style.homeIconLight} loading="lazy" />)}
+          <img src={homeIconDark} alt="Home Icon Dark" className={style.homeIconDark} loading="lazy" />
+          {/* {theme === 'dark' ? (<img src={homeIconDark} alt="Home Icon Dark" className={style.homeIconDark} loading="lazy" />) : (<img src={homeIconLight} alt="Home Icon Light" className={style.homeIconLight} loading="lazy" />)} */}
           {/* <img src={logo} alt="My logo" className={style.logo} loading="lazy" /> */}
         </motion.button>
 
@@ -71,7 +72,7 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <button
+            {/* <button
               type="button"
               className={style.theme_btn}
               onClick={toggleTheme}
@@ -81,7 +82,7 @@ const Navbar = () => {
               ) : (
                 <img src={dark} className={style.theme_img} alt="dark theme" loading="lazy" />
               )}
-            </button>
+            </button> */}
           </li>
         </ul>
 
